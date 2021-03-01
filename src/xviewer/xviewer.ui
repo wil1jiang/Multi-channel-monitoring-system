@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>XViewerClass</class>
+ <widget class="QWidget" name="XViewerClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>XViewer</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="xviewer.qrc">
+    <normaloff>:/XViewer/img/xv.ico</normaloff>:/XViewer/img/xv.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/* 按钮样式 */
+QPushButton:hover
+
+ { 
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(0, 102, 184, 255), stop:0.495 rgba(39, 39, 39, 255), stop:0.505 rgba(39,39, 39, 255), stop:1 rgba(0, 102, 184, 255));
+border: none;
+border-radius:5px;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;黑体&quot;;
+ }
+QPushButton:!hover
+ { 
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(0, 50, 150, 255), stop:0.495 rgba(0, 102, 184, 255), stop:0.505 rgba(0, 102, 184, 255), stop:1 rgba(0, 50, 150, 255));
+ border: none;
+border-radius:5px;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;黑体&quot;;
+ }
+
+
+
+/* 顶部样式 */
+#XViewerClass {
+    background-color: #333333;
+    border-radius: 0px;
+}
+#head
+{
+background-color:#3c3c3c;
+}
+#logo
+{
+	background-image: url(:/XViewer/img/logo_150_40.png);
+}
+#close
+{
+background-image: url(:/XViewer/img/close.png);
+}
+#min
+{
+background-image: url(:/XViewer/img/min.png);
+}
+#max
+{
+background-image: url(:/XViewer/img/max.png);
+}
+#normal
+{
+background-image: url(:/XViewer/img/normal.png);
+}
+/* body 演示*/
+#body
+{
+background-color: #212121;
+}
+#left
+{
+	background-color: #252525;
+}
+#cams
+{
+background-color: #1e1e1e;
+}
+
+
+#status
+{
+	color: rgb(255, 255, 255);
+	font: 75 9pt &quot;Adobe Arabic&quot;;
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="head" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>60</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QWidget" name="logo" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>5</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="head_button" native="true">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>10</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="close">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>10</y>
+       <width>20</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="min">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>20</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="max">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>10</y>
+       <width>20</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="normal">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>10</y>
+       <width>20</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <zorder>normal</zorder>
+    <zorder>close</zorder>
+    <zorder>min</zorder>
+    <zorder>max</zorder>
+   </widget>
+   <widget class="QLabel" name="status">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>10</y>
+      <width>381</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>监控中。。。</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="body" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>701</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="left" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>200</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <widget class="QListWidget" name="cam_list">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>39</y>
+       <width>201</width>
+       <height>961</height>
+      </rect>
+     </property>
+     <property name="dragEnabled">
+      <bool>true</bool>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+     <item>
+      <property name="text">
+       <string>camear_test</string>
+      </property>
+      <property name="icon">
+       <iconset resource="xviewer.qrc">
+        <normaloff>:/XViewer/img/cam.png</normaloff>:/XViewer/img/cam.png</iconset>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="add_cam">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>5</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>新增</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="set_cam">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>5</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>修改</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="del_cam">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>5</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>删除</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="cams" native="true">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>10</y>
+      <width>501</width>
+      <height>351</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="xviewer.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>close</sender>
+   <signal>clicked()</signal>
+   <receiver>XViewerClass</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>779</x>
+     <y>21</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>907</x>
+     <y>205</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>min</sender>
+   <signal>clicked()</signal>
+   <receiver>XViewerClass</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>722</x>
+     <y>24</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>659</x>
+     <y>-39</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>max</sender>
+   <signal>clicked()</signal>
+   <receiver>XViewerClass</receiver>
+   <slot>MaxWindow()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>751</x>
+     <y>31</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>841</x>
+     <y>52</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>normal</sender>
+   <signal>clicked()</signal>
+   <receiver>XViewerClass</receiver>
+   <slot>NormalWindow()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>749</x>
+     <y>29</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>add_cam</sender>
+   <signal>clicked()</signal>
+   <receiver>XViewerClass</receiver>
+   <slot>AddCam()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>42</x>
+     <y>89</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>-44</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>set_cam</sender>
+   <signal>clicked()</signal>
+   <receiver>XViewerClass</receiver>
+   <slot>SetCam()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>104</x>
+     <y>100</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>188</x>
+     <y>-86</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>del_cam</sender>
+   <signal>clicked()</signal>
+   <receiver>XViewerClass</receiver>
+   <slot>DelCam()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>165</x>
+     <y>85</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>125</x>
+     <y>-16</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>MaxWindow()</slot>
+  <slot>NormalWindow()</slot>
+  <slot>AddCam()</slot>
+  <slot>SetCam()</slot>
+  <slot>DelCam()</slot>
+ </slots>
+</ui>

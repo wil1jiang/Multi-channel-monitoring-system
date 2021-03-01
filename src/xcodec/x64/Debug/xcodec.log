@@ -1,0 +1,153 @@
+﻿  xcodec.cpp
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(119,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\thread(29): message : 参见“std::thread”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(120,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<AVPacket *>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155): message : 参见“std::list<AVPacket *,std::allocator<AVPacket *>>”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(157,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xcodec.h(64,20): warning C4251: “XCodec::mux_”: class“std::mutex”需要有 dll 接口由 class“XCodec”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xcodec.cpp(30,10): fatal error C1083: 无法打开包括文件: “libavcodec/avcodec.h”: No such file or directory
+  xdecode.cpp
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(119,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\thread(29): message : 参见“std::thread”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(120,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<AVPacket *>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155): message : 参见“std::list<AVPacket *,std::allocator<AVPacket *>>”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(157,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xcodec.h(64,20): warning C4251: “XCodec::mux_”: class“std::mutex”需要有 dll 接口由 class“XCodec”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xdecode.cpp(30,10): fatal error C1083: 无法打开包括文件: “libavcodec/avcodec.h”: No such file or directory
+  xdecode_task.cpp
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(119,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\thread(29): message : 参见“std::thread”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(120,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<AVPacket *>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155): message : 参见“std::list<AVPacket *,std::allocator<AVPacket *>>”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(157,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xcodec.h(64,20): warning C4251: “XCodec::mux_”: class“std::mutex”需要有 dll 接口由 class“XCodec”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xdecode_task.h(47,20): warning C4251: “XDecodeTask::mux_”: class“std::mutex”需要有 dll 接口由 class“XDecodeTask”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xdecode_task.cpp(30,10): fatal error C1083: 无法打开包括文件: “libavcodec/avcodec.h”: No such file or directory
+  xdemux.cpp
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(119,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\thread(29): message : 参见“std::thread”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(120,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<AVPacket *>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155): message : 参见“std::list<AVPacket *,std::allocator<AVPacket *>>”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(157,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xformat.h(94,20): warning C4251: “XFormat::mux_”: class“std::mutex”需要有 dll 接口由 class“XFormat”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xdemux.cpp(32,10): fatal error C1083: 无法打开包括文件: “libavformat/avformat.h”: No such file or directory
+  xdemux_task.cpp
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(119,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\thread(29): message : 参见“std::thread”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(120,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<AVPacket *>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155): message : 参见“std::list<AVPacket *,std::allocator<AVPacket *>>”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(157,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xformat.h(94,20): warning C4251: “XFormat::mux_”: class“std::mutex”需要有 dll 接口由 class“XFormat”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xdemux_task.h(51,21): warning C4251: “XDemuxTask::url_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“XDemuxTask”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\C++\FFmpeg\code\src\xcodec\xdemux_task.cpp(28,10): fatal error C1083: 无法打开包括文件: “libavformat/avformat.h”: No such file or directory
+  xencode.cpp
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(119,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\thread(29): message : 参见“std::thread”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(120,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<AVPacket *>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155): message : 参见“std::list<AVPacket *,std::allocator<AVPacket *>>”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(157,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xcodec.h(64,20): warning C4251: “XCodec::mux_”: class“std::mutex”需要有 dll 接口由 class“XCodec”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xencode.cpp(30,10): fatal error C1083: 无法打开包括文件: “libavcodec/avcodec.h”: No such file or directory
+  xformat.cpp
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(119,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\thread(29): message : 参见“std::thread”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(120,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<AVPacket *>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155): message : 参见“std::list<AVPacket *,std::allocator<AVPacket *>>”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(157,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xformat.h(94,20): warning C4251: “XFormat::mux_”: class“std::mutex”需要有 dll 接口由 class“XFormat”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xformat.cpp(32,10): fatal error C1083: 无法打开包括文件: “libavformat/avformat.h”: No such file or directory
+  xmux.cpp
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(119,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\thread(29): message : 参见“std::thread”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(120,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<AVPacket *>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155): message : 参见“std::list<AVPacket *,std::allocator<AVPacket *>>”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(157,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xformat.h(94,20): warning C4251: “XFormat::mux_”: class“std::mutex”需要有 dll 接口由 class“XFormat”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xmux.cpp(32,10): fatal error C1083: 无法打开包括文件: “libavformat/avformat.h”: No such file or directory
+  xmux_task.cpp
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(119,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\thread(29): message : 参见“std::thread”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(120,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<AVPacket *>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155): message : 参见“std::list<AVPacket *,std::allocator<AVPacket *>>”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(157,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xformat.h(94,20): warning C4251: “XFormat::mux_”: class“std::mutex”需要有 dll 接口由 class“XFormat”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xmux_task.h(53,20): warning C4251: “XMuxTask::mux_”: class“std::mutex”需要有 dll 接口由 class“XMuxTask”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xmux_task.cpp(28,10): fatal error C1083: 无法打开包括文件: “libavformat/avformat.h”: No such file or directory
+  xsdl.cpp
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(119,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\thread(29): message : 参见“std::thread”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(120,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<AVPacket *>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155): message : 参见“std::list<AVPacket *,std::allocator<AVPacket *>>”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(157,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xvideo_view.h(110,20): warning C4251: “XVideoView::mtx_”: class“std::mutex”需要有 dll 接口由 class“XVideoView”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xvideo_view.h(117,23): warning C4251: “XVideoView::ifs_”: class“std::basic_ifstream<char,std::char_traits<char>>”需要有 dll 接口由 class“XVideoView”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\iosfwd(224): message : 参见“std::basic_ifstream<char,std::char_traits<char>>”的声明
+F:\C++\FFmpeg\code\src\xcodec\xsdl.cpp(26,10): fatal error C1083: 无法打开包括文件: “sdl/SDL.h”: No such file or directory
+  xtools.cpp
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(119,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\thread(29): message : 参见“std::thread”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(120,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<AVPacket *>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155): message : 参见“std::list<AVPacket *,std::allocator<AVPacket *>>”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(157,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.cpp(30,10): fatal error C1083: 无法打开包括文件: “libavformat/avformat.h”: No such file or directory
+  xvideo_view.cpp
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(119,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\thread(29): message : 参见“std::thread”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(120,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<AVPacket *>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(155): message : 参见“std::list<AVPacket *,std::allocator<AVPacket *>>”的声明
+F:\C++\FFmpeg\code\src\xcodec\xtools.h(157,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xvideo_view.h(110,20): warning C4251: “XVideoView::mtx_”: class“std::mutex”需要有 dll 接口由 class“XVideoView”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+F:\C++\FFmpeg\code\src\xcodec\xvideo_view.h(117,23): warning C4251: “XVideoView::ifs_”: class“std::basic_ifstream<char,std::char_traits<char>>”需要有 dll 接口由 class“XVideoView”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\iosfwd(224): message : 参见“std::basic_ifstream<char,std::char_traits<char>>”的声明
+F:\C++\FFmpeg\code\src\xcodec\xvideo_view.cpp(32,10): fatal error C1083: 无法打开包括文件: “libavcodec/avcodec.h”: No such file or directory
+  正在生成代码...
